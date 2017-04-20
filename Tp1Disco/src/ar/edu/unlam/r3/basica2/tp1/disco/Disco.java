@@ -14,15 +14,19 @@ public class Disco {
 	public Double perimetroInterior(){
 		
 		return 2 * Math.PI * this.radioInterior;
-		
 	}
 	
 	public Double perimetroExterior(){
 		
 		return 2 * Math.PI * this.radioExterior;
-		
 	}
 	
+	public Double superficie(){
+		
+		Double radioTotal = this.radioInterior + this.radioInterior;
+		
+		return Math.PI*(radioTotal*radioTotal);
+	}
 	
 	
 	
