@@ -31,4 +31,24 @@ public class Disco {
 	
 	
 	
+	// get y set
+
+	public Double getRadioInterior() {
+		return radioInterior;
+	}
+	public void setRadioInterior(Double radioInterior) {
+		this.radioInterior = radioInterior;
+	}
+
+	
+	public Double getRadioExterior() {
+		return radioExterior;
+	}
+	public void setRadioExterior(Double radioExterior) {
+		this.radioExterior = radioExterior;
+	}
+	
+	
+	
+	
 }
