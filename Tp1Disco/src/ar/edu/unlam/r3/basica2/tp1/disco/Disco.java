@@ -23,9 +23,7 @@ public class Disco {
 	
 	public Double superficie(){
 		
-		Double radioTotal = this.radioInterior + this.radioInterior;
-		
-		return Math.PI*(radioTotal*radioTotal);
+		return Math.PI*(this.radioExterior*this.radioExterior);
 	}
 	
 	
